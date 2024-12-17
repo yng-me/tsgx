@@ -1,0 +1,17 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+inst/doc
+
+.DS_Store
+~$*
+
+.TXT
+.txt
+.csv
+.CSV
+.parquet
+.xlsx
+
+tsgx-vignettes.html

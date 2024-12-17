@@ -1,0 +1,41 @@
+Package: tsgx
+Type: Package
+Title: Table Summary Generator
+Version: 0.1.7
+Authors@R: c(
+    person(
+      "Bhas", 
+      "Abdulsamad", 
+      email = "aeabdulsamad@gmail.com",
+      comment = c(ORCID = "0009-0002-5891-8124"),
+      role = c("aut", "cre", "cph")
+    )
+  )
+Author: Bhas Abdulsamad [aut, cre, cph] (<https://orcid.org/0009-0002-5891-8124>)
+Maintainer: Bhas Abdulsamad <aeabdulsamad@gmail.com>
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Import:
+  dplyr,
+  tidyr,
+  stringr,
+  jsonlite,
+  yaml,
+  purrr,
+  tibble,
+  janitor,
+  openxlsx
+Suggests: 
+  testthat (>= 3.0.0),
+  knitr,
+  rmarkdown,
+  crayon,
+  palmerpenguins,
+  gt
+Config/testthat/edition: 3
+RoxygenNote: 7.3.1
+BugReports: https://github.com/yng-me/rcbms/issues
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
